@@ -22,7 +22,8 @@ const isWindows = OS === 'WINNT'
 const PATH_SEPARATOR = isWindows ? ';' : ':'
 const COMMAND_NAME = isWindows ? 'git.exe' : 'git'
 
-const GIT_TREE = profile.path, profile.append('.git')
+const GIT_TREE = profile.path
+profile.append('.git')
 const GIT_DIR = profile.path
 
 const GIT_INDEX = [ '--git-dir', GIT_DIR, '--work-tree', GIT_TREE ]

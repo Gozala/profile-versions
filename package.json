@@ -1,0 +1,22 @@
+{
+  "name": "profile-versions",
+  "id": "profile-versions",
+  "version": "0.0.1",
+  "description": "Add-on that uses git to version control system to version firefox user profile.",
+  "keywords": [ "git", "profile", "versions", "backup" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com> (http://jeditoolkit.com)",
+  "homepage": "https://github.com/Gozala/profile-versions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gozala/profile-versions.git",
+    "web": "https://github.com/Gozala/profile-versions"
+  },
+  "bugs": {
+    "web": "http://github.com/Gozala/profile-versions/issues/"
+  },
+  "main": "./index.js",
+  "licenses": [{
+    "type" : "MIT",
+    "url" : "http://jeditoolkit.com/LICENSE"
+  }]
+}
